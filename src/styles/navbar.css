@@ -1,0 +1,35 @@
+
+.nav{
+    width: 100%;
+    background-color: white;
+}
+
+.nav__ele{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding:1rem;
+}
+
+@media (max-width:650px){
+    .nav__ele{
+        flex-direction: column;
+    }
+}
+
+.nav__left{
+    font-size: 1.5rem;
+    font-weight: var(--fw-bold);
+}
+
+.nav__right{
+    display: flex;
+    gap:.5rem;
+    font-weight: var(--fw-semibold);
+}
+
+.nav__right:hover{
+    cursor: pointer;
+}
